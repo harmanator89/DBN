@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DBN.Views;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,10 +14,15 @@ namespace DBN
 		{
 			InitializeComponent();
 
-			MainPage = new DBN.MainPage();
+			MainPage = new LoginPage();
 		}
 
-		protected override void OnStart ()
+        private MainPage LoginPage()
+        {
+            throw new NotImplementedException();
+        }
+
+        protected override void OnStart ()
 		{
 			// Handle when your app starts
 		}

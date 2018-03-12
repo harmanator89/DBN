@@ -4,8 +4,15 @@
              xmlns:local="clr-namespace:DBN"
              x:Class="DBN.MainPage">
 
-	<Label Text="Welcome to Xamarin.Forms!" 
+
+    <StackLayout>
+        <Label Text="Welcome to Xamarin.Forms!" 
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
+        <Label Text="This is MainPage" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+
+    </StackLayout>
 
 </ContentPage>
