@@ -121,6 +121,15 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="2.5.0.280555" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\LoginIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="LoginIcon2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\LoginIcon2.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\DBN\DBN.projitems" Label="Shared" />
 </Project>

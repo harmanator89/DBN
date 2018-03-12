@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DBN.Views.LoginPage"
+             Title="Driving Blind Nav"
+             BackgroundColor="White">
+    <ContentPage.Content>
+    <StackLayout x:Name="MasterLayout">
+
+
+            <StackLayout x:Name="LogoStack" VerticalOptions="FillAndExpand">
+
+                <Image x:Name="LoginIcon" Source="LoginIcon2.jpg" Margin="0,0,0,0" Scale=".7"/>
+
+            </StackLayout>
+
+
+            <StackLayout x:Name="LoginEntriesStack" VerticalOptions="StartAndExpand">
+
+                <StackLayout.Padding>
+                    <OnIdiom x:TypeArguments="Thickness">
+                        <OnIdiom.Phone>40,0,40,0</OnIdiom.Phone>
+                        <OnIdiom.Tablet>140,150,140,0</OnIdiom.Tablet>
+                    </OnIdiom>
+                </StackLayout.Padding>
+
+            <ActivityIndicator x:Name="LoginActivity" Color="Red" IsRunning="True" IsVisible="False"/>
+
+            <Label x:Name="Lbl_Username" Text="Username:" TextColor="{StaticResource DefaultTextColor}"/>
+                <Entry x:Name="Entry_Username" Placeholder="Username" />
+
+            <Label x:Name="Lbl_Password" Text="Password:" TextColor="{StaticResource DefaultTextColor}"/>
+                <Entry x:Name="Entry_Password" Placeholder="Password"/>
+
+                <Button x:Name="Btn_Signin" Text="Sign in" Clicked="SignInProcedure"/>
+                
+
+            </StackLayout>
+                
+                
+                
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

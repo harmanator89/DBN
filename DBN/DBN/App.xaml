@@ -5,6 +5,16 @@
 	<Application.Resources>
 
 		<!-- Application resource dictionary -->
+        <ResourceDictionary>
 
-	</Application.Resources>
+            <Color x:Key="PageBackground">#00a2e8</Color>
+            <Color x:Key="DefaultTextColor">#dfdfdf</Color>
+
+
+        </ResourceDictionary>
+        
+        
+
+
+    </Application.Resources>
 </Application>
