@@ -15,6 +15,14 @@ namespace DBN.Views
 		public LoginPage ()
 		{
 			InitializeComponent ();
+            Init();
+
+            void Init()
+            {
+                //Entry Username.Completed += (s, e) => Entry.Password.Focus();
+                
+            }
+        
 		}
 
         void SignInProcedure(object sender, EventArgs e)
@@ -26,7 +34,7 @@ namespace DBN.Views
             }
             else
             {
-                DisplayAlert("Login", "Login Not Correct", "Ok");
+                DisplayAlert("Login", "Please enter a Username and Password", "Ok");
             }
         }
 	}

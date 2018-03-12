@@ -14,6 +14,8 @@ namespace DBN
 		{
 			InitializeComponent();
 
+
+
 			MainPage = new LoginPage();
 		}
 
