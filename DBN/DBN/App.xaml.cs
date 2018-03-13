@@ -16,7 +16,7 @@ namespace DBN
 
 
 
-			MainPage = new LoginPage();
+            MainPage = new DBN.Views.Menu.Dashboard();
 		}
 
         private MainPage LoginPage()
