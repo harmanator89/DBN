@@ -8,7 +8,7 @@
         <StackLayout>
             <Label Text="Can't find your destination?" FontSize="Large" />
             <Label Text="Click the 'Save me!' button" />
-            <Button Text="Save me!" Command="{Binding NavigationSMHelp}"/>
+            <Button Text="Save me!" Command="{Binding NavigationSMHelp}" Clicked="Button_Clicked"/>
             
 
         </StackLayout>
