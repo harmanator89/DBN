@@ -10,14 +10,16 @@ namespace DBN
 {
 	public partial class App : Application
 	{
-		public App ()
-		{
-			InitializeComponent();
+        public App()
+        {
+            InitializeComponent();
 
 
+            
+            MainPage = new DBN.Views.MainTabs();
 
-			MainPage = new LoginPage();
-		}
+
+        }
 
         private MainPage LoginPage()
         {

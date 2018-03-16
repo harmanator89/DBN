@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>DBN.Droid</RootNamespace>
     <AssemblyName>DBN.Android</AssemblyName>
-    <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AndroidResgenClass>Resource</AndroidResgenClass>
@@ -83,10 +83,10 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\LoginIcon2.jpg" />
+    <AndroidResource Include="Resources\drawable\LoginIcon.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\RSQicon.png" />
+    <AndroidResource Include="Resources\drawable\LoginIcon2.jpg" />
   </ItemGroup>
   <Import Project="..\DBN\DBN.projitems" Label="Shared" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

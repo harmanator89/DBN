@@ -20,6 +20,12 @@ namespace DBN.Models
 
         public bool CheckInformation()
         {
+
+            Console.WriteLine("Username: ", Username);
+            Console.WriteLine("Password:", Password);
+
+
+
             if (!this.Username.Equals("") && !this.Password.Equals(""))
                 return true;
             else
