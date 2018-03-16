@@ -8,7 +8,6 @@
             <Label Text="This is the 'Settings' page"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-            <Switch 
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
