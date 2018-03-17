@@ -4,10 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 using Xamarin.Forms;
+using Xamarin.Forms.Maps;
 using Xamarin.Forms.Xaml;
 
 //Google Maps Directions API Key AIzaSyD8oDlmrrrBnauXZDo-dLJnGEUPdiNgiS0
+
+//FormsMaps.Init();
 
 namespace DBN.Views.Menu
 {
@@ -17,6 +21,9 @@ namespace DBN.Views.Menu
 		public Dashboard ()
 		{
 			InitializeComponent ();
-		}
+
+
+
+        }
 	}
 }
